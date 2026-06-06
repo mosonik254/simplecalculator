@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <EditText
+        android:id="@+id/et_first_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_first_number"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:autofillHints="none"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/et_second_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_second_number"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:autofillHints="none"
+        android:layout_marginBottom="16dp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:text="@string/add"
+            android:textSize="24sp"
+            android:backgroundTint="@color/button_op"
+            android:textColor="@color/white"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/btn_subtract"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:text="@string/subtract"
+            android:textSize="24sp"
+            android:backgroundTint="@color/button_op"
+            android:textColor="@color/white"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/btn_multiply"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:text="@string/multiply"
+            android:textSize="24sp"
+            android:backgroundTint="@color/button_op"
+            android:textColor="@color/white"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/btn_divide"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:text="@string/divide"
+            android:textSize="24sp"
+            android:backgroundTint="@color/button_op"
+            android:textColor="@color/white"
+            android:layout_margin="4dp"/>
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear"
+        android:backgroundTint="@color/button_clear"
+        android:textColor="@color/white"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result_initial"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:background="#E0E0E0"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

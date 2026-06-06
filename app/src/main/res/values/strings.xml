@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Simple Calculator</string>
+    <string name="hint_first_number">Enter first number</string>
+    <string name="hint_second_number">Enter second number</string>
+    <string name="add">+</string>
+    <string name="subtract">-</string>
+    <string name="multiply">×</string>
+    <string name="divide">÷</string>
+    <string name="clear">Clear</string>
+    <string name="result_equation">%1$s %2$c %3$s = %4$s</string>
+    <string name="result_initial">Result</string>
+    <string name="error_divide_by_zero">Cannot divide by zero</string>
+    <string name="error_invalid_input">Invalid input</string>
+</resources>
