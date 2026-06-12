@@ -6,6 +6,16 @@
     android:padding="16dp"
     android:background="@color/background_color">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:textColor="@color/purple_700"/>
+
     <EditText
         android:id="@+id/et_first_number"
         android:layout_width="match_parent"
@@ -15,6 +25,16 @@
         android:minHeight="48dp"
         android:autofillHints="none"
         android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:textColor="@color/purple_700"/>
 
     <EditText
         android:id="@+id/et_second_number"
