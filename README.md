@@ -1,4 +1,4 @@
-# Simple Calculator
+# Simple Calculator. 
 
 A simple Android calculator application built using Java in Android Studio.
 
